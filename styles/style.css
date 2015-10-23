@@ -21,6 +21,27 @@ footer {
   border-radius: 25px;
 }
 
+header img {
+  width: 33%;
+}
+/* more specific takes precedence */
+a {
+ text-decoration: none;  
+}
+nav a {
+  text-decoration: line-through;
+}
+/* more recent takes precedence */
+p {
+  color: magenta;
+}
+p {
+  color: firebrick;
+}
+
+
+
+
 
 
 
